@@ -1,0 +1,16 @@
+name: Mabox
+author: rui
+description: 'Bang ini kok shellcodenya gak jalan di remote ya?
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs/tree/main/quals/pwn/mabox).'
+type: StaticAttachment
+category: Pwn
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flags:
+- INTECHFEST{ingin_menjadi_pwner_handal_namun_enggan_crafting_shellcode}
+provide: dist

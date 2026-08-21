@@ -1,0 +1,49 @@
+{
+  "sourceRepository": "Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs",
+  "targetRepository": "TCP1P/Slashroot-8-CTF-2024",
+  "private": false,
+  "events": [
+    "Slashroot 8 CTF 2024 — Qualifiers",
+    "Slashroot 8 CTF 2024 — Finals"
+  ],
+  "challenges": [
+    {
+      "name": "Hingga diangkasa sana, di se java",
+      "category": "Web",
+      "source": "finals/web/Hingga diangkasa sana di se java/challenge.yml",
+      "sourceUrl": "https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs/tree/main/finals/web/Hingga%20diangkasa%20sana%20di%20se%20java",
+      "type": "StaticAttachment",
+      "warnings": [
+        "no player attachment files were present"
+      ],
+      "manifest": "finals/Jeopardy/Web/hingga-diangkasa-sana-di-se-java/challenge.yaml"
+    },
+    {
+      "name": "NodeJS Enthusiast",
+      "category": "Web",
+      "source": "finals/web/NodeJS Enthusiast/challenge.yml",
+      "sourceUrl": "https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs/tree/main/finals/web/NodeJS%20Enthusiast",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "finals/Jeopardy/Web/nodejs-enthusiast/challenge.yaml"
+    },
+    {
+      "name": "Mabox",
+      "category": "Pwn",
+      "source": "quals/pwn/mabox/challenge.yml",
+      "sourceUrl": "https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs/tree/main/quals/pwn/mabox",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "quals/Jeopardy/Pwn/mabox/challenge.yaml"
+    },
+    {
+      "name": "EZZ Memento",
+      "category": "Web",
+      "source": "quals/web/ezz memento/challenge.yml",
+      "sourceUrl": "https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs/tree/main/quals/web/ezz%20memento",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "quals/Jeopardy/Web/ezz-memento/challenge.yaml"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+title: Slashroot 8 CTF 2024 — Finals
+start: '2024-08-14T00:00:00Z'
+end: '2024-08-16T00:00:00Z'
+hidden: true
+summary: Historical Slashroot 8 CTF 2024 — Finals challenge archive, converted for RSCTF practice.
+content: 'This event was imported from [Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs](https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs).
+
+
+  It starts hidden for organizer review. Historical service endpoints may be offline; each challenge links to its source archive.'
+acceptWithoutReview: true
+teamMemberCountLimit: 4
+containerCountLimit: 3
+practiceMode: true
+writeupRequired: false
+writeupNote: Writeups are optional for this historical practice event.

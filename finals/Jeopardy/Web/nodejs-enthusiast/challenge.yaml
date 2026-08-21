@@ -1,0 +1,19 @@
+name: NodeJS Enthusiast
+author: daffainfo
+description: 'This is my first time using Node.js, and I am pretty sure that this code is bug free
+
+
+  Connect: http://{{ .host }}:21291
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs/tree/main/finals/web/NodeJS%20Enthusiast).'
+type: StaticAttachment
+category: Web
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flags:
+- slashroot8{now_you_know_how_to_exec_command_without_backticks_and_parentheses}
+provide: dist
