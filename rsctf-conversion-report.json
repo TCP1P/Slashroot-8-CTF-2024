@@ -12,11 +12,15 @@
       "category": "Web",
       "source": "finals/web/Hingga diangkasa sana di se java/challenge.yml",
       "sourceUrl": "https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs/tree/main/finals/web/Hingga%20diangkasa%20sana%20di%20se%20java",
-      "type": "StaticAttachment",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
-        "no player attachment files were present"
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'slashroot8{hingga_d[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
       ],
-      "manifest": "finals/Jeopardy/Web/hingga-diangkasa-sana-di-se-java/challenge.yaml"
+      "manifest": "finals/Jeopardy/Web/hingga-diangkasa-sana-di-se-java-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "NodeJS Enthusiast",
@@ -24,6 +28,7 @@
       "source": "finals/web/NodeJS Enthusiast/challenge.yml",
       "sourceUrl": "https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs/tree/main/finals/web/NodeJS%20Enthusiast",
       "type": "StaticAttachment",
+      "runtimeReason": "Compose declares 2 services; the production Docker backend supports one service per DynamicContainer",
       "warnings": [],
       "manifest": "finals/Jeopardy/Web/nodejs-enthusiast/challenge.yaml"
     },
@@ -32,18 +37,30 @@
       "category": "Pwn",
       "source": "quals/pwn/mabox/challenge.yml",
       "sourceUrl": "https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs/tree/main/quals/pwn/mabox",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "quals/Jeopardy/Pwn/mabox/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'INTECHFEST{mabox_____________________________________[TEAM_HASH]}'",
+        "dynamic flag delivery uses the seccomp-safe jailed flag reader adapter",
+        "dynamic runtime compatibility rewrote 0 archived flag occurrence(s)"
+      ],
+      "manifest": "quals/Jeopardy/Pwn/mabox-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "EZZ Memento",
       "category": "Web",
       "source": "quals/web/ezz memento/challenge.yml",
       "sourceUrl": "https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs/tree/main/quals/web/ezz%20memento",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "quals/Jeopardy/Web/ezz-memento/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'slashroot8{ezz_meme[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
+      ],
+      "manifest": "quals/Jeopardy/Web/ezz-memento-rsctf-dynamic/challenge.yaml"
     }
   ]
 }
