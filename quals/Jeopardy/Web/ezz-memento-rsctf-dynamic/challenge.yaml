@@ -14,7 +14,6 @@ description: 'java is ezz... zzz...
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs/tree/main/quals/web/ezz%20memento).'
 type: DynamicContainer
 category: Web
-minScoreRate: 0.25
 difficulty: 5
 disableBloodBonus: false
 flagTemplate: slashroot8{ezz_meme[TEAM_HASH]}
