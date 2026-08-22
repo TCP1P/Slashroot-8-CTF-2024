@@ -12,11 +12,14 @@ description: 'java is ezz... zzz...
   ---
 
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs/tree/main/quals/web/ezz%20memento).'
-type: StaticAttachment
+type: DynamicContainer
 category: Web
 minScoreRate: 0.25
 difficulty: 5
 disableBloodBonus: false
-flags:
-- slashroot8{it_is_really_private_UwU}
-provide: dist
+flagTemplate: slashroot8{ezz_meme[TEAM_HASH]}
+container:
+  memoryLimit: 128
+  cpuCount: 1
+  exposePort: 8080
+  enableTrafficCapture: false
