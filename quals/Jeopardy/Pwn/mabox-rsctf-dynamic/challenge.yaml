@@ -8,7 +8,6 @@ description: 'Bang ini kok shellcodenya gak jalan di remote ya?
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs/tree/main/quals/pwn/mabox).'
 type: DynamicContainer
 category: Pwn
-minScoreRate: 0.25
 difficulty: 5
 disableBloodBonus: false
 flagTemplate: INTECHFEST{mabox_____________________________________[TEAM_HASH]}
