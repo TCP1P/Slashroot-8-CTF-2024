@@ -1,5 +1,5 @@
 # Use OpenJDK 17 as the base image for building
-FROM openjdk:17-slim
+FROM eclipse-temurin:17-jdk
 
 # Print Java version
 RUN java -version
